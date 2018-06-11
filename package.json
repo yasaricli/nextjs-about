@@ -1,0 +1,20 @@
+{
+  "name": "nextjs-about",
+  "version": "0.0.1",
+  "description": "about with nextjs",
+  "author": "Yasar ICLI <hello@yasaricli.com> (http://www.yasaricli.com)",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-less": "^0.3.0",
+    "less": "^3.0.4",
+    "next": "^6.0.3",
+    "next-images": "^0.10.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "underscore": "^1.9.1"
+  }
+}
