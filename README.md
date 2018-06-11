@@ -26,3 +26,22 @@ npm run build
 
 ### Deployment
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/yasaricli/nextjs-about.git)
+
+
+### Domains
+First, add the following.
+
+dns1: `a.zeit.world`
+dns2: `b.zeit.world`
+dns3: `c.zeit.world`
+dns4: `d.zeit.world` 
+dns5: `e.zeit.world`
+dns5: `e.zeit.world`
+
+Add domain after.
+
+    now domain add example.com
+    now alias <now.sh> <example.com>
+    now alias <now.sh> <www.example.com>
+
+ok. lets www.example.com
