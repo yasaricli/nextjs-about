@@ -25,8 +25,7 @@ export default class Index extends Component {
           Also I like to and do support <b>open source</b> projects.
         </p>
         <p>
-          Currently I am working as a frontend developer at <a href="https://www.tatilsepeti.com" target="_blank">Tatilsepeti</a>
-          and I am the owner and <b>core developer</b> of <a href="http://www.icerikevreni.com" target="_blank">İçerikevreni</a>.
+          Currently I am working as a frontend developer at <a href="https://www.tatilsepeti.com" target="_blank">Tatilsepeti</a> and I am the <b>core developer</b> of <a href="http://www.icerikevreni.com" target="_blank">İçerikevreni</a>.
         </p>
       </Layout>
     )

@@ -12,27 +12,22 @@ export class Layout extends Component {
   render() {
     return (
       <div id="Surface" className={this.props.className}>
-        <header class="page-header">
+        <header className="page-header">
           <img src={require('../static/images/avatar.png')} />
           <ul>
             <li className={this.isActive('About')}>
-              <Link>
-                <a href="/">about</a>
-              </Link>
-            </li>
-            <li className={this.isActive('Projects')}>
-              <Link>
-                <a href="/projects">projects</a>
+              <Link href="/">
+                <a>about</a>
               </Link>
             </li>
             <li>
-              <Link>
-                <a href="https://github.com/yasaricli" target='_blank'>github</a>
+              <Link href="https://github.com/yasaricli">
+                <a target='_blank'>github</a>
               </Link>
             </li>
             <li className={this.isActive('Contact')}>
-              <Link>
-                <a href="/contact">contact</a>
+              <Link href="/contact">
+                <a>contact</a>
               </Link>
             </li>
           </ul>
