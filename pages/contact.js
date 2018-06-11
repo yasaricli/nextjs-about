@@ -11,7 +11,7 @@ export default class Contact extends Component {
     return (
       <Layout className='Contact'>
         <h2>I can be reached by</h2>
-        <a href="mailto:hello@yasaricli.com">hello@yasaricli.com</a>
+        <a href="mailto:yasaricli@gmail.com">yasaricli@gmail.com</a>
       </Layout>
     )
   }
