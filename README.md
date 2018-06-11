@@ -34,14 +34,15 @@ First, add the following.
 dns1: `a.zeit.world`
 dns2: `b.zeit.world`
 dns3: `c.zeit.world`
-dns4: `d.zeit.world` 
+dns4: `d.zeit.world`
 dns5: `e.zeit.world`
 dns5: `e.zeit.world`
 
 Add domain after.
 
     now domain add example.com
-    now alias <now.sh> <example.com>
-    now alias <now.sh> <www.example.com>
+    now alias
+
+    now remove example --yes --safe // before removed versions.
 
 ok. lets www.example.com

@@ -1,6 +1,6 @@
 {
   "name": "nextjs-about",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "about with nextjs",
   "author": "Yasar ICLI <hello@yasaricli.com> (http://www.yasaricli.com)",
   "scripts": {
@@ -16,5 +16,12 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "underscore": "^1.9.1"
+  },
+
+  "now": {
+    "alias": [
+      "yasaricli.com",
+      "www.yasaricli.com"
+    ]
   }
 }
