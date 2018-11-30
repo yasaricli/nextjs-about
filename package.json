@@ -1,12 +1,13 @@
 {
-  "name": "nextjs-about",
+  "name": "yasar.kim",
   "version": "0.0.2",
   "description": "about with nextjs",
-  "author": "Yasar ICLI <hello@yasaricli.com> (http://www.yasaricli.com)",
+  "author": "Yasar ICLI <hello@yasaricli.com> (http://www.yasaricli.kim)",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "now --public && now alias && now rm $npm_package_now_name --safe --yes"
   },
   "dependencies": {
     "@zeit/next-less": "^0.3.0",
@@ -17,11 +18,10 @@
     "react-dom": "^16.4.0",
     "underscore": "^1.9.1"
   },
-
   "now": {
     "alias": [
-      "yasaricli.com",
-      "www.yasaricli.com"
+      "yasar.kim",
+      "www.yasar.kim"
     ]
   }
 }

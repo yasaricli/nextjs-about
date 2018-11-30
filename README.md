@@ -40,9 +40,9 @@ dns5: `e.zeit.world`
 
 Add domain after.
 
-    now domain add example.com
+    now domain add yasar.kim
     now alias
 
-    now remove example --yes --safe // before removed versions.
+    now remove yasar.kim --yes --safe // before removed versions.
 
-ok. lets www.example.com
+ok. lets https://yasar.kim
