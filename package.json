@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "now --public && now alias && now rm $npm_package_now_name --safe --yes"
+    "deploy": "now deploy && now alias && now remove yasar.kim --yes --safe"
   },
   "dependencies": {
     "@zeit/next-less": "^0.3.0",
